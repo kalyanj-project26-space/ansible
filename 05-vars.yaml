@@ -1,0 +1,14 @@
+- name: task level variables
+  host: local
+  connection: local
+  vars: 
+    COURSE: "devsecops with aws"
+    TRAINER: "sivakumar"
+    duration: "120hrs"
+  tasks: 
+  - name: print variables
+    vars: 
+      COURSE: "ansible"
+    ansible.builtin.debug:
+      msg: "course is: {{ COURSE }}, trainer is: {{ TRAINER }}"
+

@@ -1,0 +1,47 @@
+{
+    "students": [
+        {
+            "firstname": "kalyan",
+            "dob": "01-101-2020",
+
+            "addresses": [
+            {
+                "type": "perm",
+                "flatno": 5,
+                "street": "kapra",
+                "city": "hyderabad"
+            },
+            {
+                "type": "current",
+                "flatno": 6,
+                "street": "sainikpuri",
+                "city": "hyderabad"
+            }
+        ],
+        "skills": ["java", "python", "devops", "cloud"]
+
+        },
+        
+        {
+
+            "firstname": "rudra",
+             "dob": "01-101-2021",
+
+            "addresses": [
+              {
+               "type": "perm",
+               "flatno": 5,
+               "street": "kapra",
+                "city": "hyderabad"
+               },
+               {
+                "type": "current",
+                "flatno": 6,
+                "street": "sainikpuri",
+                "city": "hyderabad"
+               }
+            ],
+            "skills": ["java", "python", "devops", "cloud"]
+         }
+    ]
+}

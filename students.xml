@@ -1,0 +1,39 @@
+<!-- Students object -->
+<Students>
+	<student>
+		<firstname>kalyan</firstname>
+		<lastname>raja</lastname>
+		<DOB>01-01-2020</DOB>
+		<email>kalyan@gmail.com</email>
+		<addresses>
+			<currentaddress>
+				<plotno>1-105</plotno>
+				<street>ecil</street>
+				<city>hyd</city>
+			</currentaddress>
+			<permaddress>
+				<plotno>1-105</plotno>
+				<street>ecil</street>
+				<city>hyd</city>
+			</permaddress>
+		</addresses>
+	</student>
+	<student>
+		<firstname>rudresh</firstname>
+		<lastname>raja</lastname>
+		<DOB>01-01-2020</DOB>
+		<email>kalyan@gmail.com</email>
+		<addresses>
+			<currentaddress>
+				<plotno>1-105</plotno>
+				<street>ecil</street>
+				<city>hyd</city>
+			</currentaddress>
+			<permaddress>
+				<plotno>1-105</plotno>
+				<street>ecil</street>
+				<city>hyd</city>
+			</permaddress>
+		</addresses>
+	</student>
+</Students>

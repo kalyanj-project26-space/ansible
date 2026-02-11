@@ -1,0 +1,10 @@
+- name: check a number greater than 10 or not
+  hosts: local
+  connection: local
+  vars:
+    number of classes: 5
+  tasks:
+  - name: is shell more than 3 classes
+    ansible.builtin.debug:
+      msg: "yes, more than 3 classes"
+    when: number of classes > 3

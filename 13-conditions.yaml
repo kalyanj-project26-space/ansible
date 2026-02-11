@@ -2,9 +2,9 @@
   hosts: local
   connection: local
   vars:
-    number of classes: 5
+    number_of_classes: 5
   tasks:
   - name: is shell more than 3 classes
     ansible.builtin.debug:
       msg: "yes, more than 3 classes"
-    when: number of classes > 3
+    when: number_of_classes > 3
